@@ -1,0 +1,1 @@
+from .Ai_for_bot import bot
