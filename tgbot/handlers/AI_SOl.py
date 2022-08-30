@@ -19,12 +19,9 @@ async def get_AI(message: Message):
 
 async def get_message(message: Message):
     chat_id = message.chat
-    # print(chat_id)
     in_text = ''
     in_text = message.text
-    # print(in_text)
     out_text = bot(in_text)
-    # print(out_text)
     await message.answer(out_text)
 
 
